@@ -3,7 +3,14 @@ import Company from './Company';
 
 const items = [
   {
-    date: '2019 - Present',
+    date: '2020 - Present',
+    companyName: 'EvidenceCare',
+    position: 'Principal Engineer',
+    content:
+      'I help train several teams of software developers. We specialize in delivering healthcare applications to hospital EHR systems. I lead cross team discussions that help drive alignment, make technical decisions, and provide an important platform that values the diverse viewpoints of all team members while navigating complex decisions. I help define our bar of quality and efficiency while balancing business impact. During the COVID19 crisis our team launched a open and free to use application for doctors that aids in quickly diagnosing and recommending treatment for COVID19 patients.',
+  },
+  {
+    date: '2019 - 2020',
     companyName: 'Vaco',
     position: 'Technical Team Lead',
     content:
