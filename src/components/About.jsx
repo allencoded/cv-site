@@ -15,9 +15,13 @@ const About = () => (
         <h1>About</h1>
         <div className="block" />
         <p>
-          Hello my name is Allen Hendricks. I have been a software engineer for{' '}
-          {yearsOfExperience()} years and been in leadership for{' '}
-          {yearsOfLeadershipExperience()} of those years. I have experienced a
+          Hello my name is Allen Hendricks. I have been a software engineer for
+          {' '}
+          {yearsOfExperience()}
+          years and been in leadership for
+          {' '}
+          {yearsOfLeadershipExperience()}
+          of those years. I have experienced a
           lot of change in the field over that time. I have used an extensive
           amount of tools, programmed enterprise applications in various
           different languages across many different databases, been party to
