@@ -1,7 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const SkillLogo = ({ image, text }) => (
+interface IProps {
+  image: string;
+  text: string;
+}
+
+const SkillLogo = ({ image, text }: IProps) => (
   <div className="two columns">
     <img src={image} width="80" height="80" alt={text} />
     <div className="text-below-image">
@@ -9,10 +13,5 @@ const SkillLogo = ({ image, text }) => (
     </div>
   </div>
 );
-
-SkillLogo.propTypes = {
-  image: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
-};
 
 export default SkillLogo;
