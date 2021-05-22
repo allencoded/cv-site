@@ -5,9 +5,9 @@ const items = [
   {
     date: '2020 - Present',
     companyName: 'EvidenceCare',
-    position: 'Director of Software Engineering',
+    position: 'Vice President of Software Engineering',
     content:
-      'Provide technical direction to lead cross team discussions that help drive alignment, make technical decisions, and provide an important platform that values the diverse viewpoints of all team members while navigating complex decisions. Define our teams bar of quality and efficicency while balancing business impact. Lead internal technical training efforts. Work directly with stakeholders to ensure the technical teams are aligned with the product vision. Provide pivotal hiring and onboarding of new technical leaders. During the early months of the COVID19 crisis I directly lead a cross organization effort to launch an open and free pathway application to aid in quickly diagnosing and recommending treatment for COVID19 patients. ',
+      'Provide technical direction to lead cross team discussions that help drive alignment, make technical decisions, and provide an important platform that values the diverse viewpoints of all team members while navigating complex decisions. Define our teams bar of quality and efficiency while balancing business impact. Lead internal technical training efforts. Work directly with stakeholders to ensure the technical teams are aligned with the product vision. Provide pivotal hiring and on-boarding of new technical leaders. During the early months of the COVID19 crisis I directly lead a cross organization effort to launch an open and free pathway application to aid in quickly diagnosing and recommending treatment for COVID19 patients. ',
   },
   {
     date: '2019 - 2020',
@@ -74,7 +74,7 @@ const Experience = () => {
           <div className="row">
             <Company
               date="2004 - 2008"
-              companyName="Kaplan University [Acquired by Purude University 2017]"
+              companyName="Kaplan University [Acquired by Purdue University 2017]"
               position="B.S. Computer Science"
               content="Graduated Magna Cum Laude."
             />
