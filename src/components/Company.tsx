@@ -1,9 +1,14 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-const Company = ({
-  date, companyName, position, content,
-}) => (
+interface IProps {
+  date: string;
+  companyName: string;
+  position: string;
+  content: string;
+}
+
+const Company = ({ date, companyName, position, content }: IProps) => (
   <div className="twelve columns">
     <div className="company-wrapper">
       <div className="company-title">

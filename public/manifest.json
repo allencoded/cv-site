@@ -1,21 +1,15 @@
 {
+<<<<<<< HEAD
   "short_name": "Allen Hendricks",
+=======
+  "short_name": "Allen",
+>>>>>>> 78af0c7d93252cccb9428d0c51f4d369bc5c3a83
   "name": "Allen Hendricks",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",

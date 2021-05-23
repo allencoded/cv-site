@@ -242,7 +242,7 @@ header {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 100%%;
+  width: 100%;
   height: 100vh;
   background: #e55d87;
   background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
@@ -323,7 +323,7 @@ header {
 
 @media only screen and (max-width: 766px) {
   .main_nav {
-    padding-top: 25px;
+    padding-top: 0px;
   }
 }
 .open-nav {
@@ -383,28 +383,7 @@ nav ul a {
 nav ul a:hover {
   color: #cfcfcf;
 }
-.mobile-toggle {
-  display: none;
-  cursor: pointer;
-  font-size: 20px;
-  position: absolute;
-  right: 22px;
-  top: 0;
-  width: 30px;
-}
 
-@media only screen and (max-width: 766px) {
-  .mobile-toggle {
-    display: block;
-  }
-}
-.mobile-toggle span {
-  width: 30px;
-  height: 4px;
-  margin-bottom: 6px;
-  background: #000000;
-  display: block;
-}
 .scroll-down {
   position: absolute;
   left: 50%;
