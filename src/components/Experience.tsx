@@ -75,7 +75,7 @@ const Experience = () => {
           <div className="row">
             <Company
               date="2004 - 2008"
-              companyName="Kaplan University [Acquired by Purdue University 2017]"
+              companyName="Purdue University"
               position="B.S. Computer Science"
               content="Graduated Magna Cum Laude."
             />
