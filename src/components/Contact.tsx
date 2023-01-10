@@ -1,5 +1,3 @@
-import React from "react";
-
 const Contact = () => {
   const sendEmail = () => {
     window.location.href = "mailto:allencoded@gmail.com";

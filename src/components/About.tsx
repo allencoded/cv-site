@@ -1,12 +1,6 @@
-import React from "react";
-
 function yearsOfExperience() {
   return new Date().getFullYear() - 2008;
 }
-
-// function yearsOfLeadershipExperience() {
-//   return new Date().getFullYear() - 2017;
-// }
 
 const About = () => (
   <section id="about">

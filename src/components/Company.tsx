@@ -1,6 +1,3 @@
-import React from "react";
-import PropTypes from "prop-types";
-
 interface IProps {
   date: string;
   companyName: string;
@@ -20,12 +17,5 @@ const Company = ({ date, companyName, position, content }: IProps) => (
     {content}
   </div>
 );
-
-Company.propTypes = {
-  date: PropTypes.string.isRequired,
-  companyName: PropTypes.string.isRequired,
-  position: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
-};
 
 export default Company;

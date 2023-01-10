@@ -1,4 +1,3 @@
-import React from "react";
 import myPic from "../images/mypic.png";
 
 function Header(): JSX.Element {
