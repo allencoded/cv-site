@@ -1,4 +1,4 @@
-import myPic from "../images/mypic.png";
+import myPic from "../images/allen.jpg";
 
 function Header(): JSX.Element {
   return (
@@ -33,7 +33,7 @@ function Header(): JSX.Element {
       </div>
       <div className="title">
         <div>
-          <img src={myPic} style={{ borderRadius: "40px" }} alt="Profile" />
+          <img src={myPic} style={{ borderRadius: "20px", width: '150px' }} alt="Profile" />
           <span className="typcn typcn-heart-outline icon heading" />
         </div>
         <div className="smallsep heading" />
